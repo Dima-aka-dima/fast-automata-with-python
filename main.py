@@ -5,13 +5,13 @@ from PIL import Image
 
 hardware = "CPU"
 
-N      = 1024
+N      = 512
 nSteps = 512
-nRule  = 30
-start = "middle"
+nRule  = 110
+start = "right"
 
-colorAlive = "#E06863"
-colorDead  = "#71FFA6"
+colorAlive = "#000000"
+colorDead  = "#FFFFFF"
 
 fileFormat = "png"
 
